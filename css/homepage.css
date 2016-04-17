@@ -1,0 +1,85 @@
+/*
+* @Author: anchen
+* @Date:   2016-04-14 15:17:09
+* @Last Modified by:   anchen
+* @Last Modified time: 2016-04-17 15:15:07
+*/
+body{
+    color: #fff;
+}
+.user-list .user{
+  margin: 30px 0;
+  text-align: center;
+}
+.main-containar {
+    width: 960px;
+    margin: 0 auto;
+}
+/*info side */
+#infowarp {
+   /* background-color: #2c3e50;*/
+    background: url(../img/city.jpg) center top no-repeat;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    padding-top: 200px;
+}
+#infowarp .centered {
+    text-align: center;
+}
+/*workswrap side*/
+
+#workswrap {
+    background: #2f2f2f;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#workswrap .workstitle {
+    text-align: center;
+}
+
+/*skillwrap side*/
+#skillwrap {
+    background: #2c3e50;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#skillwrap .skilltitle {
+    text-align: center;
+}
+/*footer side*/
+#contactwrap {
+    background: #2f2f2f;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#contactwrap .contact-social {
+    font-size: 20px;
+}
+#contactwrap .contact-social i{
+    padding-right: 5px;
+    color: #1abc9c;
+}
+/*copyright*/
+footer {
+    padding-top: 24px;
+    background-color: #333;
+    color: #888;
+    text-align: center;
+}
+
+/*back-top*/
+.back-top {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 25px;
+    right: 25px;
+    line-height: 50px;
+    text-align: center;
+    border: solid 2px #eee;
+    border-radius: 50px;
+    display: none;
+    transition: background-color 0.3s linear,border 0.3s linear;
+}
