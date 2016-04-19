@@ -2,7 +2,7 @@
 * @Author: anchen
 * @Date:   2016-04-14 15:17:09
 * @Last Modified by:   anchen
-* @Last Modified time: 2016-04-17 15:15:07
+* @Last Modified time: 2016-04-19 11:11:04
 */
 body{
     color: #fff;
@@ -76,10 +76,10 @@ footer {
     height: 50px;
     bottom: 25px;
     right: 25px;
-    line-height: 50px;
+    color: gray;
     text-align: center;
-    border: solid 2px #eee;
-    border-radius: 50px;
-    display: none;
-    transition: background-color 0.3s linear,border 0.3s linear;
+    /*display: none;*/
+}
+.back-top:hover {
+    color: #1abc9c;
 }
