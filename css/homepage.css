@@ -2,7 +2,7 @@
 * @Author: anchen
 * @Date:   2016-04-14 15:17:09
 * @Last Modified by:   anchen
-* @Last Modified time: 2016-04-24 11:37:09
+* @Last Modified time: 2016-05-03 10:48:34
 */
 body{
     color: #fff;
@@ -51,6 +51,9 @@ body{
 }
 #skillwrap .skilltitle {
     text-align: center;
+}
+#skillwrap .row .user h3 {
+
 }
 /*footer side*/
 #contactwrap {
